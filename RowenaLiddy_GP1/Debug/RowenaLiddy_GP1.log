@@ -1,0 +1,50 @@
+﻿Build started 03/08/2016 11:16:47.
+     1>Project "G:\RowenaLiddy_GP1\RowenaLiddy_GP1\RowenaLiddy_GP1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cSprite.cpp
+         cSprite.cpp
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(106): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(107): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(180): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(184): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(206): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(241): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(242): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(243): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(244): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(301): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(313): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(314): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>g:\rowenaliddy_gp1\rowenaliddy_gp1\csprite.cpp(315): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\RowenaLiddy_GP1\Debug\RowenaLiddy_GP1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\RowenaLiddy_GP1\Debug\RowenaLiddy_GP1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\RowenaLiddy_GP1\Debug\RowenaLiddy_GP1.lib" /MACHINE:X86 Debug\asteroidsGame.obj
+         Debug\cAsteroid.obj
+         Debug\cBkGround.obj
+         Debug\cBullet.obj
+         Debug\cButton.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cInputMgr.obj
+         Debug\cKeyDesc.obj
+         Debug\cRocket.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSprite.obj
+         Debug\cTexture.obj
+         Debug\cWNDManager.obj
+         Debug\main.obj
+         Debug\windowOGL.obj
+         alut.lib
+         DevIL.lib
+         freeglut.lib
+         ftgl.lib
+         ILU.lib
+         ILUT.lib
+         OpenAL32.lib
+         RowenaLiddy_GP1.vcxproj -> G:\RowenaLiddy_GP1\Debug\RowenaLiddy_GP1.exe
+     1>Done Building Project "G:\RowenaLiddy_GP1\RowenaLiddy_GP1\RowenaLiddy_GP1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.21
